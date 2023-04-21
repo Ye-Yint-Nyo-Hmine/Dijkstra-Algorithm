@@ -17,17 +17,17 @@ eg. for rooms(my school example)
 
 then, in line 61:
 *main.py*
-'''
+```
 dijkstra_path_finder(graph, x, y)
-'''
+```
 
 In above x could be the starting point, then, y would be the target
 
 To run dijkstra's algorithm in your specified .json file, in line 6L
 *main.py*
-'''
+```
 graph_file = "NAME.json"
-'''
+```
 > Remember to change the directed .json file to your specified .json file
 
 ## Credits
