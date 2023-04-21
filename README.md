@@ -16,6 +16,7 @@ eg. for rooms(my school example)
 ```
 
 then, in line 61:
+
 *main.py*
 ```
 dijkstra_path_finder(graph, x, y)
@@ -23,7 +24,8 @@ dijkstra_path_finder(graph, x, y)
 
 In above x could be the starting point, then, y would be the target
 
-To run dijkstra's algorithm in your specified .json file, in line 6L
+To run dijkstra's algorithm in your specified .json file, in line 6:
+
 *main.py*
 ```
 graph_file = "NAME.json"
@@ -31,3 +33,5 @@ graph_file = "NAME.json"
 > Remember to change the directed .json file to your specified .json file
 
 ## Credits
+
+- Credits to my APCSP teacher for giving me and helping me to make this school project,
