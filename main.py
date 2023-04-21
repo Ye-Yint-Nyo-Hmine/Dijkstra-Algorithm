@@ -9,7 +9,7 @@ with open(graph_file, "r") as rf:
     graph_contents = rf.read()
 
 graph = json.loads(graph_contents)
-S
+
 
 def dijkstra_path_finder(graph, start, end):
     startTime = default_timer()
