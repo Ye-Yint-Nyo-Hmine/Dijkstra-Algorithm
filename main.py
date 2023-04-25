@@ -17,7 +17,7 @@ def dijkstra_path_finder(graph, start, end):
     shortest_distance = {}
     predecessor = {}
     unseenNodes = graph
-    infinity = 9999999
+    infinity = float("inf")
     path = []
 
     for node in unseenNodes:
